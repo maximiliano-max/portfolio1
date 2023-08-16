@@ -1,0 +1,234 @@
+/*barra de navegacion*/
+.navbar {
+    padding: 1rem;
+    background-color: #080808;
+}
+
+.nav-item a {
+    color: white;
+    font-size: 20px;
+}
+
+.nav-item a:hover {
+    color: rgb(199, 199, 199);
+}
+
+.icon1 {
+    height: 40px;
+}
+
+.separador {
+    border: 1px solid rgb(173, 171, 171);
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: 'Notable', sans-serif;
+    margin-top: 85px;
+    color: #0a0a0a;
+
+
+}
+
+.hero {
+    background-color: #f5f6f7;
+    min-height: 450px;
+    text-align: center;
+}
+
+.hero-principal {
+    width: 100%;
+    height: 90vh;
+
+    background-size: 100% 100%;
+    background-position: center;
+    overflow: hidden;
+
+}
+
+.img-max {
+    margin-top: 130px;
+    width: 70%;
+    height: 60vh;
+    /*border-radius: 50%;*/
+
+
+}
+
+
+
+
+.hero-principal h2 {
+    font-size: 1.5rem;
+    color: #0a0a0a;
+    font-family: 'Trade Winds', cursive;
+    float: right;
+    margin-top: 525px;
+}
+
+.seccion-oscura {
+    color: white;
+    background-color: #1b1b1b;
+}
+
+.sobre-mi {
+    height: 400px;
+    padding: 10px;
+}
+
+.sobre-mi .contenedor {
+    max-width: 600px;
+    text-align: center;
+}
+
+.seccion-titulo {
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.seccion-texto {
+    font-size: 1.2rem;
+}
+
+.experiencia {
+    padding: 0px 40px 60px 40px;
+}
+
+.seccion-clara {
+    color: black;
+    background-color: white;
+}
+
+.experiencia-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.experiencia i {
+    font-size: 2.5rem;
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+
+.badges-contenedor {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px o;
+}
+
+.badge {
+    margin: 5px;
+}
+
+.proyectos-recientes {
+    padding: 40px;
+}
+
+.proyectos-recientes img {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
+}
+
+.proyecto-contenedor {
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+
+.overlay {
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.proyecto {
+    position: relative;
+
+}
+
+.proyecto:hover img {
+    opacity: 0.2;
+}
+
+.proyecto:hover .overlay {
+    opacity: 1;
+}
+
+.overlay .iconos-contenedor {
+    display: flex;
+}
+
+.overlay i {
+    color: black;
+    font-size: 50px;
+    margin: 10px;
+}
+
+.cert{
+    height: 300px;
+    width: 400px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #0a0a0a;
+    color: #f5f6f7;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+
+    .hero-principal h1 {
+        font-size: 45px;
+        margin-top: 10px;
+    }
+
+    .navbar {
+        background-color: #626364;
+    }
+
+    .hero-img-desarrollador {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .hero-inferior-img {
+        max-width: 600px;
+    }
+}
