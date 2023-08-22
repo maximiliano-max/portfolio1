@@ -231,10 +231,13 @@ footer {
         background-color: #626364;
     }
 
-    .hero img {
+    .titulo img{
         height: 300px;
-        width: 300px;
-    }
+        width: 350px;
+        border-radius: 50;
+        display: inline;
+        margin-left: 10px;
+     }
 
     .overlay {
 
@@ -246,6 +249,7 @@ footer {
         transition: all 0.2s ease;
         transform: translate(-50%, -50%);
         color: #070707;
+        
     }
     
 .proyectos-recientes img {
@@ -260,10 +264,14 @@ footer {
     height: 300px;
     width: 400px;
     margin-top: 20px;
-    opacity: 0.3;
+    opacity: 0.1;
+   
+    
     
 }
-
+.iconos-contenedor1 a i{
+    border: 1px solid #070707;
+}
 
 
 
