@@ -96,6 +96,35 @@ h1 {
     text-align: center;
 }
 
+
+.sobre-mi .contenedor p{
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    white-space: pre;
+    overflow: hidden;
+    line-height: 1.5;
+    animation: typing 4s steps(200, end), blink-caret 0.75s step-end infinite;
+    width: 100%;
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #bbb8b8;
+    }
+  }
+
 .seccion-titulo {
     font-size: 2rem;
     padding: 15px 0;
@@ -272,8 +301,37 @@ footer {
 .iconos-contenedor1 a i{
     border: 1px solid #070707;
 }
+.sobre-mi .contenedor{
+    text-align: center;
+}
+.sobre-mi .contenedor p{
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    white-space: pre;
+    overflow: hidden;
+    line-height: 1.5;
+    animation: typing 4s steps(200, end), blink-caret 0.75s step-end infinite;
+    width: 100%;
+    text-align: center;
+  }
 
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
 
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #bbb8b8;
+    }
+  }
 
 
 
