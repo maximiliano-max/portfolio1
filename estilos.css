@@ -322,9 +322,7 @@ footer {
          
  }
        @media only screen and (max-width: 550px){
-        *{
-            width: 100%;
-        }
+    
         
         .hero-principal h2 {
             font-size: 30px;
@@ -342,7 +340,7 @@ footer {
               width: 350px;
               border-radius: 50;
               margin-top: 15px;
-              margin-left: 65px;
+             
           }
             .hero {
                 background-color: #080808;
@@ -356,3 +354,38 @@ footer {
        .sobre-mi .contenedor p{
         font-size: 10px;
     }}
+
+    @media only screen and (max-width: 300px){
+    
+        
+        .hero-principal h2 {
+            font-size: 25px;
+            margin-top: 50px;
+            font-family: 'Rubik Dirt', cursive;
+            text-align: right;
+          }
+          .hero-principal h1 {
+              font-size: 30px;
+              text-align: center;
+            }
+      
+          .titulo img{
+              height: 170px;
+              width: 350px;
+              border-radius: 50;
+              margin-top: 15px;
+             
+          }
+            .hero {
+                background-color: #080808;
+               max-height: 400px;
+                
+            }
+            .seccion-titulo {
+                font-family: 'Rubik Dirt', cursive;
+       }
+
+       .sobre-mi .contenedor p{
+        font-size: 10px;
+       }
+    }
