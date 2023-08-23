@@ -373,6 +373,7 @@ footer {
             margin-top: 50px;
             font-family: 'Rubik Dirt', cursive;
             text-align: right;
+            margin-left: -10px;
           }
           .hero-principal h1 {
               font-size: 30px;
@@ -384,6 +385,7 @@ footer {
               width: 350px;
               border-radius: 50;
               margin-top: 15px;
+              margin-left: -20px;
              
           }
             .hero {
@@ -397,6 +399,10 @@ footer {
 
        .sobre-mi .contenedor p{
         font-size: 10px;
+        text-align: center;
+       }
+       .contenedor.sobre-mi h2{
+        margin-top: -20px;
        }
 
        .cert {
