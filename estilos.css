@@ -281,9 +281,11 @@ footer {
         opacity: 0.3;
     }
     .cert {
-        height: 300px;
-        width: 400px;
-        margin-top: 20px;
+        height: 100%;
+        width: 100%;
+        padding: 10px;
+        border-radius: 20px;
+        display: block;
         opacity: 0.1;
     }
     .iconos-contenedor1 a i{
@@ -342,6 +344,14 @@ footer {
               margin-top: 15px;
              
           }
+          .cert {
+            height: 100%;
+            width: 100%;
+            padding: 10px;
+            border-radius: 20px;
+            display: block;
+            opacity: 0.1;
+        }
             .hero {
                 background-color: #080808;
                max-height: 400px;
@@ -388,4 +398,13 @@ footer {
        .sobre-mi .contenedor p{
         font-size: 10px;
        }
+
+       .cert {
+        height: 100%;
+        width: 100%;
+        padding: 10px;
+        border-radius: 20px;
+        display: block;
+        opacity: 0.1;
+    }
     }
