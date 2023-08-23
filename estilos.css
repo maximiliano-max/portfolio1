@@ -369,11 +369,11 @@ footer {
     
         
         .hero-principal h2 {
-            font-size: 25px;
+            font-size: 15px;
             margin-top: 50px;
             font-family: 'Rubik Dirt', cursive;
-            text-align: right;
-            margin-left: -10px;
+            margin-left: -39px;
+          
           }
           .hero-principal h1 {
               font-size: 30px;
@@ -381,16 +381,20 @@ footer {
             }
       
           .titulo img{
-              height: 170px;
-              width: 350px;
+              height: 70px;
+              width: 150px;
               border-radius: 50;
               margin-top: 15px;
-              margin-left: -20px;
+              align-items: center;
+             
              
           }
             .hero {
                 background-color: #080808;
                max-height: 400px;
+               display: block;
+               justify-content: center;
+               align-items: center;
                 
             }
             .seccion-titulo {
@@ -400,6 +404,7 @@ footer {
        .sobre-mi .contenedor p{
         font-size: 10px;
         text-align: center;
+        justify-content: space-between;
        }
        .contenedor.sobre-mi h2{
         margin-top: -20px;
