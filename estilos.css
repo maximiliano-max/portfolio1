@@ -376,7 +376,7 @@ footer {
         }
         .hero-principal h2 {
             font-size:25px;
-            font-family: 'Rubik Dirt', cursive;
+            font-family: 'Rubik Dirt';
             margin-right: 10px;
             margin-top: 25px;                   
           }
@@ -402,21 +402,21 @@ footer {
                 
             }
             .seccion-titulo {
-                font-family: 'Rubik Dirt', cursive;
+                font-family: 'Rubik Dirt';
        }
 
       .contenedor i{
         font-size: 40px;
         }
 
-        .seccion-texto{
+       .sobre-mi .contenedor p{
             text-align: center;
-            align-items: center;
+            font-size:15px;
         }
      
-       .contenedor h2{
-        margin-top: -20px;
-        font-size: 25px;
+       .sobre-mi .contenedor h2{
+        margin-top: -50px;
+        font-size: 35px;
         font-family: 'Rubik Dirt';
        }
 
