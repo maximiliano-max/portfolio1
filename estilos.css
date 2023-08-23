@@ -373,7 +373,8 @@ footer {
         .hero-principal h2 {
             font-size:25px;
             font-family: 'Rubik Dirt', cursive;
-                               
+            margin-right: 10px;
+            margin-top: -10px;                   
           }
           .hero-principal h1 {
               font-size: 40px;
@@ -406,10 +407,11 @@ footer {
 
         .seccion-texto{
             text-align: center;
+            align-items: center;
         }
      
        .contenedor h2{
-        margin-top:-160px;
+        margin-top: -20px;
         font-size: 25px;
         font-family: 'Rubik Dirt';
        }
