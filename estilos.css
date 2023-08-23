@@ -373,7 +373,8 @@ footer {
         .hero-principal h2 {
             font-size:25px;
             font-family: 'Rubik Dirt', cursive;
-            margin-right: 0px;
+            margin-top: -10px;
+            text-align: center;
           
           }
           .hero-principal h1 {
